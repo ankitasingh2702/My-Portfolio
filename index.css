@@ -1,0 +1,173 @@
+body {
+  background-color: #333;
+}
+
+/* css style for nav*/ 
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+
+}
+
+
+h1 {
+  text-align: center;
+  color:darkcyan;
+  text-decoration:underline ;
+
+}
+
+li {
+  float: left;
+  padding-bottom: 15px;
+  padding-right: 12px;
+  font-size: x-large;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+ 
+}
+
+
+/*navigation bar hover*/
+li a:hover {
+  background-color: #111;
+}
+
+/* css for gallery pic*/
+#menu {
+  text-align: center;
+  font-size: xx-large;
+  font-style: oblique;
+  background-color: #849261;
+  padding: auto;
+  margin: auto;
+}
+
+.Desserts:hover {
+  position: relative;
+  width: 500px;
+  background-color: rgb(244, 225, 148);
+}
+
+.Biryani:hover {
+  position: relative;
+  width: 500px;
+  background-color: rgb(244, 225, 148);
+}
+
+.Paneer:hover {
+  position: relative;
+  width: 500px;
+  background-color: rgb(244, 225, 148);
+}
+
+.Chinese:hover {
+  position: relative;
+  width: 500px;
+  background-color: rgb(244, 225, 148);
+}
+
+.Indian:hover {
+  position: relative;
+  width: 500px;
+  background-color: rgb(244, 225, 148);
+}
+
+.Smudi:hover {
+  position: relative;
+  width: 500px;
+  background-color: rgb(244, 225, 148);
+}
+/*css for about me*/
+
+#aboutme {
+  box-sizing: content-box;
+  border-radius: 1000px;
+  padding: 50px;
+  background-color: #9fc5f4;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(rain.jpg);
+
+
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Gill Sans', Calibri, sans-serif;
+  font-size: 20px;
+  color:palegoldenrod;
+font-size: x-large;
+}
+p{
+  color: snow;
+  font-style: normal;
+}
+
+h3 {
+  text-align: center;
+  font-family: Algerian, Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  color:white;
+  font-size: x-large;
+  display: inline;
+  top: 250px;
+  margin: auto;
+  padding: auto;
+
+}
+/*css  for contact */
+#contactme {
+  border: 2px solid black;
+  padding: 0px;
+  
+ right: 50px;
+padding-left: 50px;
+line-height: 2;
+color:black;
+word-spacing: 9px;
+background-image: url(cont.jpg);
+background-size: cover;
+}
+/*css for footer*/
+.footer {
+  background-image: url(pepper.webp);
+  
+  border: 6px solid;
+  background-size: cover;
+  color:black;
+}
+
+.icon {
+  text-align: center;
+  position: relative;
+  width: auto;
+  bottom: 20px;
+}
+
+td,
+tr {
+  width: 42%;
+  text-align: left;
+  padding: 7px;
+  text-align: left;
+}
+
+#copy {
+  text-align: center;
+  text-decoration: overline;
+  
+}
